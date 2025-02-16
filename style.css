@@ -9,7 +9,7 @@
 body {
     background-image: url("./images/bg.jpeg");
     background-size: cover;
-    font-family: "Fredoka";
+    font-family: "Fredoka"; 
 }
 
 .container {
