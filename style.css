@@ -43,7 +43,7 @@ body {
     position: relative;
 }
 
-.card-image-with-svg-mask {
+ .card-image-with-svg-mask {
     -webkit-mask: url("/images/top-center.png") center / contain no-repeat, url("/images/bottom-right.png") center / contain no-repeat, linear-gradient(#000000 0 0);
     mask-size: 22rem, 30rem;
     mask-position: top center, bottom right;
