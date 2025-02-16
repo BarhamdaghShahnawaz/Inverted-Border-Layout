@@ -41,10 +41,11 @@ body {
     border-top-right-radius: 2.5rem;
     border-bottom-left-radius: 2.5rem;
     position: relative;
-}
-
- .card-image-with-svg-mask {
-    -webkit-mask: url("/images/top-center.png") center / contain no-repeat, url("/images/bottom-right.png") center / contain no-repeat, linear-gradient(#000000 0 0);
+    -webkit-mask: url("./images/top-center.png") center / contain no-repeat, url("./images/bottom-right.png") center / contain no-repeat, linear-gradient(#000000 0 0);
+    -webkit-mask-size: 22rem, 30rem;
+    -webkit-mask-position: top center, bottom right;
+    -webkit-mask-composite: exclude;
+    mask: url("./images/top-center.png") center / contain no-repeat, url("./images/bottom-right.png") center / contain no-repeat, linear-gradient(#000000 0 0);
     mask-size: 22rem, 30rem;
     mask-position: top center, bottom right;
     mask-composite: exclude;
