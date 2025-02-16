@@ -32,7 +32,7 @@ body {
 .card-image-with-svg-mask {
     width: 80vw;
     height: 80vh;
-    background-image: url("/images/chameleons.avif");
+    background-image: url("./images/chameleons");
     background-position: 0%;
     background-repeat: no-repeat;
     background-size: cover;
